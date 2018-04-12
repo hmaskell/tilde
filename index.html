@@ -159,20 +159,16 @@
     Cmdr.init({
       default: 'https://www.google.com/search?q=',
       commands: [
-        { key: 'a', name: 'Amazon', url: 'https://www.amazon.com', search: '/s/?field-keywords=' },
         { key: '4', name: '4chan', url: 'https://boards.4chan.org', search: '/' },
+        { key: 'a', name: 'Amazon', url: 'https://www.amazon.com', search: '/s/?field-keywords=' },
         { key: 'c', name: 'Canvas', url: 'https://canvas.sfu.ca' },
         { key: 'd', name: 'Drive', url: 'https://drive.google.com', search: '/drive/search?q=' },
-        { key: 'f', name: 'Facebook', url: 'https://www.facebook.com', search: '/search/top/?q=' },
-        { key: 'h', name: 'Hacker News', url: 'https://hn.algolia.com', search: '/?query=' },
-        { key: 'i', name: 'Inbox', url: 'https://inbox.google.com', search: '/search/' },
-        { key: 'k', name: 'Keep', url: 'https://keep.google.com', search: '/#search/text=' },
+        { key: 'g', name: 'Gmail', url: 'https://mail.google.com', search: '/mail/u/0/#search/' },
+        { key: 'h', name: 'Hacker News', url: 'https://news.ycombinator.com/' },
+        { key: 'm', name: 'Messenger', url: 'https://messenger.com' },
         { key: 'r', name: 'Reddit', url: 'https://www.reddit.com', search: '/r/' },
-        { key: 's', name: 'SoundCloud', url: 'https://soundcloud.com', search: '/search?q=' },
-        { key: 't', name: 'Twitter', url: 'https://twitter.com', search: '/search?q=' },
-        { key: 'y', name: 'YouTube', url: 'https://www.youtube.com', search: '/results?search_query=' },
-        { key: '0', name: '0.0.0.0', url: 'http://0.0.0.0'},
-        { key: '9', name: '0.0.0.0:9000', url: 'http://0.0.0.0:9000'},
+        { key: 't', name: 'Twitch', url: 'https://twitch.tv', search: '/' },
+        { key: 'y', name: 'YouTube', url: 'https://www.youtube.com', search: '/results?search_query=' }
       ]
     });
   }());
