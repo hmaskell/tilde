@@ -138,7 +138,7 @@
         else if (Cmdr.urlRegex.test(q)) {
           Cmdr.location = q;
           if(!Cmdr.httpRegex.test(Cmdr.location)) {
-            Cmdr.location = 'https://' + Cmdr.location;
+            Cmdr.location = 'http://' + Cmdr.location;
           }
           window.location.href = Cmdr.location;
         }
