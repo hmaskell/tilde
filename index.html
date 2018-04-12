@@ -104,7 +104,7 @@
       setTime: function() {
         var date = new Date();
         var hours = Clock.zeros(date.getHours());
-        hours = hours > 12 ? hours-12 : hours;
+        hours = (hours > 12 ? hours-12 : hours) == 0 ? hours+12 : hours;
         var minutes = Clock.zeros(date.getMinutes());
         var time = hours + ' ' + minutes;
 
